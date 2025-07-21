@@ -1,1 +1,3 @@
-cce3206-venv/
+# Ignore venvironment directories
+cce3206/cce3206-venv
+cce3206-venv
