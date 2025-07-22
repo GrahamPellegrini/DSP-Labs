@@ -17,37 +17,56 @@
 
 ## Practicals Overview
 
-This repository includes 4 hands-on labs, each with an accompanying PDF worksheet and solved notebook.
+This repository includes 4 hands-on labs, each with a worksheet and an implemented solution notebook. Topics range from sampling theory and IIR filtering to FIR design and FFT-based frequency analysis.
 
 ### Practical 1 – Sampling Theorem
 - Signal generation and pulse train sampling
-- Power spectrum analysis in time and frequency domains
-- Aliasing and effective sampling frequency
-- Chebyshev filter design and application to sampled signals
+- Power spectrum comparison (original vs sampled)
+- Aliasing effects and Nyquist violations
+- Chebyshev low-pass filtering
 
 ### Practical 2 – IIR Filter Implementation
-- First-order IIR filter using intermediate variables
-- Impulse and step response analysis
-- Filtering real `.wav` audio signals
-- Frequency response and power spectra
-- Gain and phase calculations across frequencies
-- Theoretical vs experimental Bode plots
+- First-order IIR filter with recursive feedback
+- Impulse and step response simulation
+- `.wav` signal filtering and power spectrum analysis
+- Gain/phase computation
+- Experimental vs theoretical Bode plots
 
-### Practical 3 – FIR Filter Design (from uploaded PDF)
-- FIR system design and frequency response analysis *(Details in worksheet)*
+### Practical 3 – FIR Filter Design
+- FIR system implementation and frequency response
+- Filter length and performance tradeoffs
+- Visualization of filtering effects
+- (See worksheet for theoretical context)
 
-### Practical 4 – DFT and FFT Analysis (from uploaded PDF)
-- DFT matrix generation
-- Transform properties: conjugation, symmetry, and energy conservation *(Details in worksheet)*
+### Practical 4 – DFT and FFT Analysis
+- Manual DFT matrix computation
+- Symmetry and conjugation in transforms
+- Parseval’s theorem and energy conservation
+- FFT implementation and performance gains
 
-> **Note**: A `venv` or `requirements.txt` file is not included. To run the notebooks, install `numpy`, `scipy`, `matplotlib`, and `jupyter` using pip or conda.
+> These practicals were designed as **skill-building exercises** rather than full projects. Emphasis is on signal understanding and implementation from first principles.
 
 ---
 
-## Structure
+## Requirements
+
+This repository does **not** include a `requirements.txt` file.
+
+To run the notebooks, make sure you have the following Python libraries installed:
+```bash
+pip install numpy scipy matplotlib jupyter
+```
+Or use:
+```bash
+conda install numpy scipy matplotlib jupyter
+```
+
+---
+
+## Repository Structure
 
 ```bash
-cce3206/
+DSP-Labs/
 ├── Practical_1/
 │   ├── cce3206-practical-1.pdf
 │   └── practical_1_solution.ipynb
@@ -64,3 +83,9 @@ cce3206/
 ```
 
 ---
+
+## Author
+
+**Graham Pellegrini**  
+University of Malta  
+GitHub: [@GrahamPellegrini](https://github.com/GrahamPellegrini)
