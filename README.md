@@ -15,7 +15,7 @@
 
 ---
 
-## 🧪 Practicals Overview
+## Practicals Overview
 
 This repository includes 4 hands-on labs, each with an accompanying PDF worksheet and solved notebook.
 
@@ -40,11 +40,11 @@ This repository includes 4 hands-on labs, each with an accompanying PDF workshee
 - DFT matrix generation
 - Transform properties: conjugation, symmetry, and energy conservation *(Details in worksheet)*
 
-> ⚠️ **Note**: A `venv` or `requirements.txt` file is not included. To run the notebooks, install `numpy`, `scipy`, `matplotlib`, and `jupyter` using pip or conda.
+> **Note**: A `venv` or `requirements.txt` file is not included. To run the notebooks, install `numpy`, `scipy`, `matplotlib`, and `jupyter` using pip or conda.
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```bash
 cce3206/
